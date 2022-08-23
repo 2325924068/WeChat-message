@@ -4,11 +4,13 @@
 name: express.js
 
 on:
+  schedule:
+    - cron: '5 * * * *'
+
   push:
     branches: [ "master" ]
   
-  schedule:
-    - cron: '5 * * * *'
+  
 
 jobs:
   build:
