@@ -20,16 +20,16 @@ https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 #### 模板案例
 
 ```
-{{nowDate.DATA}} 城市：{{city.DATA}}
+{{date.DATA}}
 
-天气： 晴
+城市：{{area.DATA}}  天气：{{weather.DATA}}  降雨概率：{{pop.DATA}}
 
-最低气温： {{low.DATA}}
+最低气温: {{lowest.DATA}}  最高气温: {{highest.DATA}}
 
-最高气温： {{high.DATA}}
+今日建议：{{tips.DATA}}
 
-今天是我们恋爱的 {{loveDate.DATA}} 天
+寄言：{{lizhi.DATA}}
 
-
-{{txt.DATA}}
+星座运势：
+{{star.DATA}}
 ```

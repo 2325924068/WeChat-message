@@ -6,14 +6,16 @@ const config = {
     appid: 'wx373c8f0fe9783279',
     secret: '21a9d6cdb23826c715e209928ee555fd',
     touser: 'oXoUL6y1tr3BT9GDX8e71kuWRz-w',
-    template_id: 'YMh-iQO0bV4w5BzUgsYFERIvLF-9JEy0-_dOn-JjU5I',
+    template_id: 'nx_ryOQa6dGCHznrCWRhY_USxu2fFG1Aer86Kt6ibnA',
   },
 
-  weather: {
-    appid: '35662718',
-    appsecret: '80LRrVME',
-    cityid: '101180301',
+  data: {
+    key: '568db94d0b23eb5fd0153f2acc67fb25',
+    city: '新乡市',
+    astro: 'aries',
+    birthday:'1998-08-23',
   },
+
 
   templateData: {
     data: {
