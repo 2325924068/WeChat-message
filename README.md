@@ -20,16 +20,18 @@ https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 #### 模板案例
 
 ```
-{{date.DATA}}
+今天是 {{date.DATA}}
 
 城市：{{area.DATA}}  天气：{{weather.DATA}}  降雨概率：{{pop.DATA}}
 
-最低气温: {{lowest.DATA}}  最高气温: {{highest.DATA}}
+平均温度：{{real.DATA}}  最低气温: {{lowest.DATA}}  最高气温: {{highest.DATA}}
+
+距离生日还有：{{birthday.DATA}}
+
+距离我们相识已有：{{acquaintance.DATA}}
 
 今日建议：{{tips.DATA}}
 
 寄言：{{lizhi.DATA}}
 
-星座运势：
-{{star.DATA}}
 ```
