@@ -1,0 +1,25 @@
+name: express
+
+on:
+  schedule:
+    - cron: '20 6 * * ?'
+
+  push:
+    branches: [ "master" ]
+  
+  
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: 12.x
+        cache: 'npm'
+    - run: npm i
+    - run: npm start
