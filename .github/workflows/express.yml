@@ -2,7 +2,7 @@ name: express
 
 on:
   schedule:
-    - cron: '20 6 * * ?'
+    - cron: '20 21 * * ?'
 
   push:
     branches: [ "master" ]
