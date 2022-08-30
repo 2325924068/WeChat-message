@@ -44,5 +44,5 @@ async function start() {
     })
     .catch((err) => console.error('发送失败', err))
 }
-
-start()
+console.log('ok');
+// start()
